@@ -1,4 +1,4 @@
-# Read Me for For Azure Storage Account create
+# Read Me for For Azure VM Creation (UbuntuOS)
 ## Pre-requsites
     You need to have account in Azure for you to be able to use this.
 ## Commands to run and its purpose
@@ -34,3 +34,13 @@
 ##### _ubuntuOSVersion_
     Version of UbuntuOS needed, with some restriction.AllowedValues are  12.04.5-LTS, 14.04.2-LTS,15.04. 
     However the defaultValue": 14.04.2-LTS. Since a default value is provided - you will not be prompted to enter a value.
+### Sample Input Values:
+    newStorageAccountName:  storageAzsWest
+    adminUsername:  deployer
+    adminPassword:  <masked>
+    vmName:  devApp01
+    vmSize:  Standard_D1
+    location:  WestUS   
+
+Once the deployment is successful - look for the status and ensure that you are able to SSH to box using 
+the username password you provided.
