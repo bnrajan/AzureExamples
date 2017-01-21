@@ -64,7 +64,7 @@
     "imagePublisher": "Canonical",
     "imageOffer": "UbuntuServer",
     "OSDiskName": "osdiskforlinuxsimple",
-    "dnsNameForPublicIP": "[concat(parameters('vmName'),'dnspublicip')]",
+    "dnsNameForPublicIP": "[parameters('vmName')]",
     "publicIPAddressName": "[parameters('vmName')]",
     "nicName": "[concat(parameters('vmName'),'nic')]",
     "addressPrefix": "10.0.0.0/16",
