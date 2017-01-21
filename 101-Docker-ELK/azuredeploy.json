@@ -73,6 +73,7 @@
     "storageAccountType": "Standard_LRS",
     "publicIPAddressType": "Dynamic",
     "vmStorageAccountContainerName": "vhds",
+    "extensionName": "DockerExtension",
     "virtualNetworkName": "[concat(parameters('vmName'),'net')]",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('virtualNetworkName'))]",
     "subnetRef": "[concat(variables('vnetID'),'/subnets/',variables('subnetName'))]"
@@ -188,6 +189,40 @@
         ]
         }
     }
+    },
+    {
+      "type": "Microsoft.Compute/virtualMachines/extensions",
+      "name": "[concat(parameters('vmName'),'/', variables('extensionName'))]",
+      "apiVersion": "2015-05-01-preview",
+      "location": "[resourceGroup().location]",
+      "dependsOn": [
+        "[concat('Microsoft.Compute/virtualMachines/', parameters('vmName'))]"
+      ],
+      "properties": {
+        "publisher": "Microsoft.Azure.Extensions",
+        "type": "DockerExtension",
+        "typeHandlerVersion": "1.0",
+        "autoUpgradeMinorVersion": true,
+        "settings": {
+          "compose": {
+            "elasticsearch": {
+              "image": "elasticsearch",
+              "ports": [
+                "9200:9200"
+              ]
+            },
+            "kibana": {
+              "image": "kibana",
+              "ports": [
+                "5601:5601"
+              ],
+              "links": [
+                "elasticsearch:elasticsearch"
+              ]
+            }
+          }
+        }
+      }
     }
 ]
 }

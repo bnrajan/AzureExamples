@@ -10,4 +10,4 @@
 The above command creates a new Resource Group in Azure within the specified subscription and location of the ResourceGroup is also specified.
 #### azure group deployment create -f azuredeploy.json -g ExampleRS-bnr -n ExampleRS-bnr-storage-account01
 The above command creates the storage account within the mentioned resource group. When you run the command you will be prompted for a resource group name. Please provide the name all in lowercase, just alphanumeric.
-  
+    
