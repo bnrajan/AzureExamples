@@ -1,0 +1,122 @@
+Installation of Azure APIM Export-Import for APIM
+
+
+ 9489  dotnet
+ 9495  ./dotnet-install.sh
+ 9496  chmod 755 dotnet-install.sh
+ 9497  ./dotnet-install.sh
+ 9498  vi dotnet-install.sh
+ 9499  ./dotnet-install.sh
+ 9500  vi dotnet-install.sh
+ 9501  ./dotnet-install.sh
+ 9505  ./dotnet-install.sh
+ 9507  ./dotnet-install.shcc
+ 9509  ./dotnet-install.shcc
+ 9510  ./dotnet-install.sh
+ 9511  brew install --cask dotnet
+ 9512  dotnet
+ 9514  dotnet
+ 9516  dotnet tool search extractor
+ 9517  dotnet tool search
+ 9518  dotnet tool search --help
+ 9525  ./dotnet
+ 9533  dotnet
+ 9534  dotnet --info
+ 9535  ./dotnet --info
+ 9539  ./dotnet --info
+ 9541  ./dotnet tool search extractor
+ 9547  ./dotnet restore
+ 9552  rm -rf dotnet-install.sh
+ 9558  ./dotnet restore
+ 9559  ./dotnet new
+ 9560  dotnet run
+ 9561  ./dotnet --info
+ 9563  cd dotnet-sdk-5.0.101-osx-x64
+ 9565  ./dotnet --info
+ 9566  ./dotnet new
+ 9567  ./dotnet restore
+ 9568  ./dotnet pack
+ 9569  ./dotnet tool search extractor
+ 9570  ./dotnet tool search creator
+ 9571  ./dotnet tool search apimtools
+ 9572  ./dotnet tool search apim
+ 9573  dotnet extract
+ 9574  dotnet restores
+ 9575  dotnet restore
+ 9576  dotnet tool search restore
+ 9577  ./dotnet tool search dotnet  restore
+ 9578  ./dotnet tool restore
+ 9579  ./dotnet tool search dotnet  restore --details
+ 9580  ./dotnet tool search dotnet  restore
+ 9581  ./dotnet tool search restore
+ 9582  ./dotnet add package nugetutils.tool.restore
+ 9583  ./dotnet list package
+ 9584  ./dotnet list
+ 9585  ./dotnet list package nugetutils.tool.restore
+ 9586  ./dotnet list package restore
+ 9587  ./dotnet restore
+ 9588  ./dotnet restore
+ 9599  dotnet restore
+ 9603  ./dotnet restore
+ 9604  ./dotnet restore apim
+ 9605  ./dotnet restore ./apim/azure-api-management-devops-resource-kit
+ 9608  ../../dotnet -restore .
+ 9609  ../../dotnet -restore
+ 9625  ~/Downloads/dotnet-sdk-5.0.101-osx-x64/dotnet -restore ./apimtemplate.csproj
+ 9626  ~/Downloads/dotnet-sdk-5.0.101-osx-x64/dotnet -restore --help
+ 9627  ~/Downloads/dotnet-sdk-5.0.101-osx-x64/dotnet restore ./apimtemplate.csproj
+ 9628  ~/Downloads/dotnet-sdk-5.0.101-osx-x64/dotnet extract
+ 9629  ~/Downloads/dotnet-sdk-5.0.101-osx-x64/
+ 9645  export DOTNET_HOME="~/Downloads/dotnet-sdk-5.0.101-osx-x64/"
+ 9646  echo $DOTNET_HOME
+ 9647  $DOTNET_HOME/dotnet run create -config .
+ 9648  ls -ltr ~/Downloads/dotnet-sdk-5.0.101-osx-x64//dotnet
+ 9649  ls -ltr ~/Downloads/dotnet-sdk-5.0.101-osx-x64/dotnet
+ 9650  ./$DOTNET_HOME/dotnet run create -config .
+ 9651  ~/Downloads/dotnet-sdk-5.0.101-osx-x64/dotnet run create --configFile .
+ 9652  dotnet -info
+ 9653  dotnet --info
+ 9654  ~/Downloads/dotnet-sdk-5.0.101-osx-x64/dotnet run create --configFile .
+ 9663  tar -xvf dotnet-sdk-3.1.110-osx-x64.tar.gz
+ 9665  ls -ltr dotnet
+ 9672  rm -rf dotnet
+ 9682  echo $DOTNET_HOME
+ 9683  export DOTNET_HOME="~/Downloads/dotnet-sdk-3.1.110-osx-x64"
+ 9684  cd $DOTNET_HOME
+ 9687  cd dotnet-sdk-3.1.110-osx-x64
+ 9689  export DOTNET_HOME="/Users/LOCAL-USER/Downloads/dotnet-sdk-3.1.110-osx-x64"
+ 9692  $DOTNET_HOME/dotnet --info
+ 9706  $DOTNET_HOME/dotnet restore apimtemplate.csproj
+ 9707  $DOTNET_HOME/dotnet run create --configFile .
+ 9709  $DOTNET_HOME/dotnet run create --configFile .
+ 9719  $DOTNET_HOME/dotnet run create --configFile /Users/LOCAL-USER/Downloads/dotnet-sdk-3.1.110-osx-x64/apim/azure-api-management-devops-resource-kit/src/APIM_ARMTemplate_1
+ 9723  $DOTNET_HOME/dotnet run create --configFile /Users/LOCAL-USER/Downloads/dotnet-sdk-3.1.110-osx-x64/apim/azure-api-management-devops-resource-kit/src/APIM_ARMTemplate_1
+ 9739  $DOTNET_HOME/dotnet run create --configFile /Users/LOCAL-USER/Downloads/dotnet-sdk-3.1.110-osx-x64/apim/azure-api-management-devops-resource-kit/src/APIM_ARMTemplate/config-dir
+ 9740  cd /Users/LOCAL-USER/Downloads/dotnet-sdk-3.1.110-osx-x64/apim/azure-api-management-devops-resource-kit/src/APIM_ARMTemplate/config-dir
+ 9750  $DOTNET_HOME/dotnet run create --configFile /Users/LOCAL-USER/Downloads/dotnet-sdk-3.1.110-osx-x64/apim/azure-api-management-devops-resource-kit/src/APIM_ARMTemplate/config-dir
+ 9751  sudo $DOTNET_HOME/dotnet run create --configFile /Users/LOCAL-USER/Downloads/dotnet-sdk-3.1.110-osx-x64/apim/azure-api-management-devops-resource-kit/src/APIM_ARMTemplate/config-dir
+ 9752  $DOTNET_HOME/dotnet run
+ 9753  $DOTNET_HOME/dotnet run create --help
+ 9754  $DOTNET_HOME/dotnet run create -c
+ 9755  $DOTNET_HOME/dotnet run create --configFile CONFIG_YAML_FILE_LOCATION
+ 9778  $DOTNET_HOME/dotnet run extract --sourceApimName "bnr-apim" --destinationApimName  "bnr-apim" --resourceGroup "bnr-test" --fileFolder "/var/tmp" --apiName "Hello World"
+ 9779  $DOTNET_HOME/dotnet run extract --sourceApimName "bnr-apim" --destinationApimName  "bnr-apim" --resourceGroup "bnr-test" --fileFolder "/var/tmp" --apiName "Hello World/v1"
+ 9780  $DOTNET_HOME/dotnet run extract --sourceApimName "bnr-apim" --destinationApimName  "bnr-apim" --resourceGroup "bnr-test" --fileFolder "/var/tmp"
+ 9807  cd $DOTNET_HOME
+ 9824  $DOTNET_HOME/dotnet run extract --sourceApimName "bnr-apim" --destinationApimName  "bnr-apim" --resourceGroup "bnr-test" --fileFolder "/var/tmp" --apiName "echo-api"
+ 9825  $DOTNET_HOME/dotnet run extract --sourceApimName "bnr-apim" --destinationApimName  "bnr-apim" --resourceGroup "bnr-test" --fileFolder "/var/tmp/bnr-apim" --apiName "echo-api"
+ 9850  cd $DOTNET_HOME
+ 9857  $DOTNET_HOME/dotnet run extract --sourceApimName "bnr-apim" --destinationApimName  "bnr-apim" --resourceGroup "bnr-test" --fileFolder "/var/tmp/bnr-apim-cicd" --apiName "ci-cd-example1"
+ 9871  cd $DOTNET_HOME/apim/azure-api-management-devops-resource-kit
+ 9875  $DOTNET_HOME/dotnet run extract  --extractorConfig extract-config.json
+ 9878  $DOTNET_HOME/dotnet run extract  --extractorConfig extract-config.json
+ 9879  $DOTNET_HOME/dotnet run extract  --extractorConfig ./extract-config.json
+ 9881  $DOTNET_HOME/dotnet run extract  --extractorConfig "/Users/LOCAL-USER/Downloads/dotnet-sdk-3.1.110-osx-x64/apim/azure-api-management-devops-resource-kit/src/APIM_ARMTemplate/apimtemplate/extract-config.json"
+ 9883  $DOTNET_HOME/dotnet run extract  --extractorConfig ./extract-config.json
+ 9885  $DOTNET_HOME/dotnet run extract  --extractorConfig "./extractSettings.json"
+ 9887  $DOTNET_HOME/dotnet run extract  --extractorConfig "./extractSettings.json"
+ 9921  $DOTNET_HOME/dotnet run extract --sourceApimName "bnr-apim" --destinationApimName  "bnr-apim" --resourceGroup "bnr-test" --fileFolder "/var/tmp/bnr-apim-cicd" --apiName "Hello World"
+ 9924  $DOTNET_HOME/dotnet run extract --sourceApimName "bnr-apim" --destinationApimName  "bnr-apim" --resourceGroup "bnr-test" --fileFolder "/var/tmp/bnr-apim-cicd" --apiName "hello-world"
+ 9947  $DOTNET_HOME/dotnet run extract --sourceApimName "bnr-apim" --destinationApimName  "bnr-apim" --resourceGroup "bnr-test" --fileFolder "/var/tmp/bnr-apim-cicd" --apiName "hello-world"clear
+ 9949  $DOTNET_HOME/dotnet run extract --sourceApimName "bnr-apim" --destinationApimName  "bnr-apim" --resourceGroup "bnr-test" --fileFolder "/var/tmp/bnr-apim-cicd" --apiName "hello-world"
+➜  ~
